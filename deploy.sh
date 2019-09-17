@@ -2,7 +2,7 @@
 set -e
 # 发布源码
 git add .
-git commit -m '提交代码'
+git commit -m '样式微调'
 # 发布源码
 git push -f git@github.com:lvan-zhang/lvan-zhang.github.io.git master:gh-pages
 

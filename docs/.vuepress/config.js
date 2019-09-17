@@ -1,6 +1,6 @@
 module.exports = {
   "title": "Lvan's blog",
-  "description": "welcome!!",
+  "description": "I'm not in danger,I am the danger.",
   "dest": "public",
   "head": [
     [
@@ -75,8 +75,8 @@ module.exports = {
     "sidebar": "auto",
     "lastUpdated": "Last Updated",
     "author": "Lvan",
-    "record": "xxxx",
-    "startYear": "2017"
+    "record": "Lvan",
+    "startYear": "2018"
   },
   "markdown": {
     "lineNumbers": true

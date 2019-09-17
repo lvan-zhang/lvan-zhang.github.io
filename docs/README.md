@@ -20,6 +20,6 @@ features:
 <style>
 /* 首页图片样式 */
 .personal-img {
-  height: 10rem !important;
+  height: 12rem !important;
 }
 </style>
