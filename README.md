@@ -45,3 +45,6 @@ yarn dev
 # build
 yarn build
 ```
+
+**deploy**
+bash deploy.sh

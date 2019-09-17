@@ -1,5 +1,10 @@
 # 确保脚本抛出遇到的错误
 set -e
+# 发布源码
+git add .
+git commit -m '提交代码'
+# 发布源码
+git push -f git@github.com:lvan-zhang/lvan-zhang.github.io.git master:gh-pages
 
 # 生成静态文件
 npm run build
@@ -16,9 +21,5 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
 git push -f git@github.com:lvan-zhang/lvan-zhang.github.io.git master
-
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-cd ..
-git push -f git@github.com:lvan-zhang/lvan-zhang.git master:gh-pages
 
 cd -
