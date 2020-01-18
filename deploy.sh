@@ -3,13 +3,13 @@ set -e
 # 发布源码
 git add .
 git commit -m '第一篇博客'
-# 发布源码
+# 发布源码到远程的gh-pages分支
 git push -f git@github.com:lvan-zhang/lvan-zhang.github.io.git master:gh-pages
 
 # 生成静态文件
 npm run build
 
-# 进入生成的文件夹
+# 进入生成的文件夹，将public文件夹的内容发布到master分支
 cd public
 
 # 如果是发布到自定义域名
