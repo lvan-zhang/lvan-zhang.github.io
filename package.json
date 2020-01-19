@@ -5,9 +5,11 @@
   "author": "reco_luan",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "push": "bash ./deploy.sh"
   },
   "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-comments": "^1.0.13",
     "@vuepress/plugin-medium-zoom": "1.0.3",
     "vuepress": "^1.0.4",
     "vuepress-plugin-flowchart": "1.4.3",

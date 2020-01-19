@@ -58,6 +58,10 @@ module.exports = {
         ]
       }
     ],
+    "valineConfig": {
+      "appId": 'yKkVYFK88LjrfDdJA4Y7RNGv-gzGzoHsz',// your appId
+      "appKey": 't8L2JLHWd9LhWVFtmAPBdKGy', // your appKey
+    },
     "type": "blog",
     "blogConfig": {
       "category": {
@@ -83,6 +87,7 @@ module.exports = {
   },
   "plugins": [
     "@vuepress/medium-zoom",
-    "flowchart"
+    "flowchart",
+    "@vuepress-reco/vuepress-plugin-comments"
   ]
 }
